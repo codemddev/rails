@@ -1,0 +1,37 @@
+{
+  "base_sha": "f17189d709a467a793228acd9c8ac635de3dc377",
+  "change_source": "compare",
+  "changed_component_count": 1,
+  "changed_components": [
+    "activesupport"
+  ],
+  "changed_file_count": 1,
+  "changed_function_count": 0,
+  "changed_functions": [],
+  "deploy_targets": [],
+  "head_sha": "bb7f7e6756c035abe36cbddc5ee583f9e02490a6",
+  "impacted_test_count": 1,
+  "impacted_tests": [
+    "activesupport/test/message_pack/cache_serializer_test.rb"
+  ],
+  "lists_truncated": false,
+  "reason": "Every selected test is connected to the changed code by CodeMD's deterministic discovery.",
+  "requires_full_suite": false,
+  "schema_version": 1,
+  "test_selection": [
+    {
+      "changed_file_count": 1,
+      "changed_files": [
+        "activesupport/lib/active_support/message_pack/cache_serializer.rb"
+      ],
+      "changed_files_truncated": false,
+      "language": "ruby",
+      "selected_by": [
+        "file_convention"
+      ],
+      "test_file": "activesupport/test/message_pack/cache_serializer_test.rb"
+    }
+  ],
+  "unresolved_file_count": 0,
+  "unresolved_files": []
+}
