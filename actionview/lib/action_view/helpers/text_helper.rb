@@ -129,6 +129,7 @@ module ActionView
       # # => "Once upon a time in a world...<a href=\"#\">Continue</a>"
       # ```
       def truncate(text, options = {}, &block)
+        # CodeMD throwaway test: checking Feature Impact on Ruby (this PR will be closed)
         if text
           length  = options.fetch(:length, 30)
 
